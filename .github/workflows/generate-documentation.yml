@@ -10,11 +10,11 @@ jobs:
       - name: "Checkout repository"
         uses: actions/checkout@v4
       - name: "Install Doxygen"
-        uses: ssciwr/doxygen-install
+        uses: ssciwr/doxygen-install@v1
       - name: "Generate documentation"
         run: "doxygen" # Add arguments if needed
       - name: "Upload Pages artifact"
-        uses: actions/upload-pages-artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "docs/html"
 
