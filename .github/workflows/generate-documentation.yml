@@ -34,4 +34,4 @@ jobs:
         uses: actions/deploy-pages@v4
         id: deployment
       - name: "Print the Pages deployment URL"
-        run: "echo ${{ deployment.page_url }}"
+        run: "echo ${{ steps.deployment.page_url }}"
