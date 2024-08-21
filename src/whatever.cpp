@@ -5,7 +5,7 @@
 /*********************************************************************
  * @file  whatever.cpp
  * 
- * @brief Example brief for whatever.cpp
+ * @brief Short description for whatever.cpp
  *********************************************************************/
 
 double euclidean_distance(Point a, Point b) {
